@@ -1,0 +1,61 @@
+
+.header-container{
+     display: flex;
+    flex-direction: column;
+   }
+ .header-container .logo{
+    text-align: center;
+ }
+.header-container .ul-login{
+   position:relative;
+  top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: c;
+ 
+}
+.header-container .ul-login .ul ul {
+    display: flex;
+    color: rgb(118, 9, 9);
+ 
+}
+.header-container .ul-login .ul ul{
+    display: flex;
+ 
+
+
+}
+.header-container .ul-login .ul ul li{
+    display: flex;
+    list-style-type: none;
+    padding-right: 20px;
+
+
+}
+.header-container .ul-login h3{
+    display: flex;
+    position: absolute;
+    top: 5;
+    right: 0;
+    z-index: 1000;
+  }
+
+  
+ .signup{
+ position:absolute;
+ width:200px;
+ height:300px;
+ right:0;
+ margin-top:100px;
+ z-index: 100;
+  }
+  
+ .login{
+ position:absolute;
+ width:200px;
+ height:300px;
+ right:0;
+ margin-top:100px;
+ z-index: 100;
+  }
